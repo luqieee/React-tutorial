@@ -8,9 +8,9 @@ class App extends Component {
         return (
             <div className="App">
 
-                <AppHeader/>
+                <AppHeader name={this.props.type}/>
 
-                <AppIntro/>
+                <AppIntro path="src/AppHeader.js"/>
 
             </div>
         );
